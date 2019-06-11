@@ -36,15 +36,9 @@ lista.append(100)
 
 print(lista)
 
-
-
 index= lista.index("bruno")
 
-
-
 print("index", index)
-
-
 
 print(lista.count(4))
 
@@ -52,15 +46,11 @@ print(lista.count(4))
 
 lista.append(4)
 
-
-
 print(lista.count(4))
-
 
 lista.remove("python")
 
 print(lista)
-
 
 lista.remove(4)
 
@@ -107,6 +97,5 @@ pessoa={
  "nome": "bruno Batista",
  "endereco":{"rua":"Fagundes Varelas"}
 }
-
 
 print(pessoa)
