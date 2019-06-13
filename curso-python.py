@@ -4,15 +4,11 @@ b=2
 
 c=3
 
-
+#testetetetetetetete
 
 d=a+b+c
 
-
-
 print('soma', d)
-
-
 
 
 
@@ -110,3 +106,43 @@ pessoa={
 
 
 print(pessoa)
+
+
+numero=1
+if(numero==1):
+   print('numero e igual a 1')
+
+numero=2
+
+if(numero==1):
+   print('numero eh igual a 1')
+else:
+   print('numero nao eh igual a 1')
+
+nome="bruno"
+
+if("z" in nome):
+	print("nome tem a letra z ")
+elif("b" in nome):
+	print("nome tem a letra B")
+else:
+	pass
+
+for x in range(0,5):
+	print("valor de x eh:",x)
+
+
+for letra in nome:
+	print('letras no nome: ', letra)
+
+# Uma lista de instrumentos musicais
+instrumentos = ['Baixo', 'Bateria', 'Guitarra']
+# Para cada nome na lista de instrumentos
+for instrumento in instrumentos:
+# mostre o nome do instrumento musical
+ print instrumento
+a=1
+
+if(a > 1):
+	print('teste')
+
