@@ -32,15 +32,9 @@ lista.append(100)
 
 print(lista)
 
-
-
 index= lista.index("bruno")
 
-
-
 print("index", index)
-
-
 
 print(lista.count(4))
 
@@ -48,15 +42,11 @@ print(lista.count(4))
 
 lista.append(4)
 
-
-
 print(lista.count(4))
-
 
 lista.remove("python")
 
 print(lista)
-
 
 lista.remove(4)
 
@@ -104,7 +94,6 @@ pessoa={
  "endereco":{"rua":"Fagundes Varelas"}
 }
 
-
 print(pessoa)
 
 
@@ -145,4 +134,32 @@ a=1
 
 if(a > 1):
 	print('teste')
+
+#------------------------while
+
+numero=15
+while (numero>=0):
+    print(numero)
+    numero-=1
+    print(numero)#executara sempre uma vez a mais
+
+print('------')
+numero = 20
+while True:
+    numero-=1
+    print(numero)
+    if(numero == 2):
+        break
+
+print('------')
+
+numero=10
+while True:
+    numero-=1
+    if(numero == 4):
+        continue
+    print(numero)
+    if(numero == 2):
+        break
+
 
